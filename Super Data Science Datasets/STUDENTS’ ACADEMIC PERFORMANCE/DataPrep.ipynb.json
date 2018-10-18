@@ -1,0 +1,470 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "import pandas as pd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "data = pd.read_csv('/Users/Leo/Documents/Case Studies/Students Academic Perfomance Dataset/Students_Data.csv')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'head' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-6-f68d2b2478e8>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mhead\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mdata\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m: name 'head' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "head(data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Gender</th>\n",
+       "      <th>Nationality</th>\n",
+       "      <th>PlaceOfBirth</th>\n",
+       "      <th>StageID</th>\n",
+       "      <th>GradeID</th>\n",
+       "      <th>SectionID</th>\n",
+       "      <th>Topic</th>\n",
+       "      <th>Semester</th>\n",
+       "      <th>Relation</th>\n",
+       "      <th>RaisedHands</th>\n",
+       "      <th>VisitedResources</th>\n",
+       "      <th>AnnouncementsViewed</th>\n",
+       "      <th>Discussion</th>\n",
+       "      <th>ParentAnsweredSurvey</th>\n",
+       "      <th>ParentSchoolSatisfaction</th>\n",
+       "      <th>StudentAbsenceDays</th>\n",
+       "      <th>Class</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>M</td>\n",
+       "      <td>KW</td>\n",
+       "      <td>KuwaIT</td>\n",
+       "      <td>lowerlevel</td>\n",
+       "      <td>G-04</td>\n",
+       "      <td>A</td>\n",
+       "      <td>IT</td>\n",
+       "      <td>F</td>\n",
+       "      <td>Father</td>\n",
+       "      <td>15</td>\n",
+       "      <td>16</td>\n",
+       "      <td>2</td>\n",
+       "      <td>20</td>\n",
+       "      <td>Yes</td>\n",
+       "      <td>Good</td>\n",
+       "      <td>Under-7</td>\n",
+       "      <td>M</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>M</td>\n",
+       "      <td>KW</td>\n",
+       "      <td>KuwaIT</td>\n",
+       "      <td>lowerlevel</td>\n",
+       "      <td>G-04</td>\n",
+       "      <td>A</td>\n",
+       "      <td>IT</td>\n",
+       "      <td>F</td>\n",
+       "      <td>Father</td>\n",
+       "      <td>20</td>\n",
+       "      <td>20</td>\n",
+       "      <td>3</td>\n",
+       "      <td>25</td>\n",
+       "      <td>Yes</td>\n",
+       "      <td>Good</td>\n",
+       "      <td>Under-7</td>\n",
+       "      <td>M</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>M</td>\n",
+       "      <td>KW</td>\n",
+       "      <td>KuwaIT</td>\n",
+       "      <td>lowerlevel</td>\n",
+       "      <td>G-04</td>\n",
+       "      <td>A</td>\n",
+       "      <td>IT</td>\n",
+       "      <td>F</td>\n",
+       "      <td>Father</td>\n",
+       "      <td>10</td>\n",
+       "      <td>7</td>\n",
+       "      <td>0</td>\n",
+       "      <td>30</td>\n",
+       "      <td>No</td>\n",
+       "      <td>Bad</td>\n",
+       "      <td>Above-7</td>\n",
+       "      <td>L</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>M</td>\n",
+       "      <td>KW</td>\n",
+       "      <td>KuwaIT</td>\n",
+       "      <td>lowerlevel</td>\n",
+       "      <td>G-04</td>\n",
+       "      <td>A</td>\n",
+       "      <td>IT</td>\n",
+       "      <td>F</td>\n",
+       "      <td>Father</td>\n",
+       "      <td>30</td>\n",
+       "      <td>25</td>\n",
+       "      <td>5</td>\n",
+       "      <td>35</td>\n",
+       "      <td>No</td>\n",
+       "      <td>Bad</td>\n",
+       "      <td>Above-7</td>\n",
+       "      <td>L</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>M</td>\n",
+       "      <td>KW</td>\n",
+       "      <td>KuwaIT</td>\n",
+       "      <td>lowerlevel</td>\n",
+       "      <td>G-04</td>\n",
+       "      <td>A</td>\n",
+       "      <td>IT</td>\n",
+       "      <td>F</td>\n",
+       "      <td>Father</td>\n",
+       "      <td>40</td>\n",
+       "      <td>50</td>\n",
+       "      <td>12</td>\n",
+       "      <td>50</td>\n",
+       "      <td>No</td>\n",
+       "      <td>Bad</td>\n",
+       "      <td>Above-7</td>\n",
+       "      <td>M</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "  Gender Nationality PlaceOfBirth     StageID GradeID SectionID Topic  \\\n",
+       "0      M          KW       KuwaIT  lowerlevel    G-04         A    IT   \n",
+       "1      M          KW       KuwaIT  lowerlevel    G-04         A    IT   \n",
+       "2      M          KW       KuwaIT  lowerlevel    G-04         A    IT   \n",
+       "3      M          KW       KuwaIT  lowerlevel    G-04         A    IT   \n",
+       "4      M          KW       KuwaIT  lowerlevel    G-04         A    IT   \n",
+       "\n",
+       "  Semester Relation  RaisedHands  VisitedResources  AnnouncementsViewed  \\\n",
+       "0        F   Father           15                16                    2   \n",
+       "1        F   Father           20                20                    3   \n",
+       "2        F   Father           10                 7                    0   \n",
+       "3        F   Father           30                25                    5   \n",
+       "4        F   Father           40                50                   12   \n",
+       "\n",
+       "   Discussion ParentAnsweredSurvey ParentSchoolSatisfaction  \\\n",
+       "0          20                  Yes                     Good   \n",
+       "1          25                  Yes                     Good   \n",
+       "2          30                   No                      Bad   \n",
+       "3          35                   No                      Bad   \n",
+       "4          50                   No                      Bad   \n",
+       "\n",
+       "  StudentAbsenceDays Class  \n",
+       "0            Under-7     M  \n",
+       "1            Under-7     M  \n",
+       "2            Above-7     L  \n",
+       "3            Above-7     L  \n",
+       "4            Above-7     M  "
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "data.columns = [\"Gender\", \"Nationality\", \"PlaceOfBirth\", \"StageID\", \"GradeID\", \"SectionID\", \"Topic\", \"Semester\", \"Relation\", \"RaisedHands\", \"VisitedResources\", \"AnnouncementsViewed\", \"Discussion\", \"ParentAnsweredSurvey\", \"ParentSchoolSatisfaction\", \"StudentAbsenceDays\", \"Class\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0         Kuwait\n",
+       "1         Kuwait\n",
+       "2         Kuwait\n",
+       "3         Kuwait\n",
+       "4         Kuwait\n",
+       "5         Kuwait\n",
+       "6         Kuwait\n",
+       "7         Kuwait\n",
+       "8         Kuwait\n",
+       "9         Kuwait\n",
+       "10        Kuwait\n",
+       "11        Kuwait\n",
+       "12        Kuwait\n",
+       "13       Lebanon\n",
+       "14        Kuwait\n",
+       "15        Kuwait\n",
+       "16        Kuwait\n",
+       "17        Kuwait\n",
+       "18        Kuwait\n",
+       "19        Kuwait\n",
+       "20        Kuwait\n",
+       "21        Kuwait\n",
+       "22        Kuwait\n",
+       "23        Kuwait\n",
+       "24        Kuwait\n",
+       "25        Kuwait\n",
+       "26        Kuwait\n",
+       "27        Kuwait\n",
+       "28        Kuwait\n",
+       "29        Kuwait\n",
+       "         ...    \n",
+       "450       Jordan\n",
+       "451       Jordan\n",
+       "452       Jordan\n",
+       "453       Jordan\n",
+       "454       Jordan\n",
+       "455       Jordan\n",
+       "456       Jordan\n",
+       "457       Jordan\n",
+       "458         Iraq\n",
+       "459         Iraq\n",
+       "460         Iraq\n",
+       "461         Iraq\n",
+       "462         Iraq\n",
+       "463         Iraq\n",
+       "464       Jordan\n",
+       "465       Jordan\n",
+       "466       Jordan\n",
+       "467       Jordan\n",
+       "468       Jordan\n",
+       "469       Jordan\n",
+       "470    Palestine\n",
+       "471    Palestine\n",
+       "472    Palestine\n",
+       "473    Palestine\n",
+       "474       Jordan\n",
+       "475       Jordan\n",
+       "476       Jordan\n",
+       "477       Jordan\n",
+       "478       Jordan\n",
+       "479       Jordan\n",
+       "Name: Nationality, dtype: object"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data[\"Nationality\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "data[\"Nationality\"] = data[\"Nationality\"].replace(\"KW\", \"Kuwait\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "data[\"Nationality\"] = data[\"Nationality\"].replace(\"lebanon\", \"Lebanon\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "data[\"Nationality\"] = data[\"Nationality\"].replace(\"SaudiArabia\", \"Saudi Arabia\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "data[\"Nationality\"] = data[\"Nationality\"].replace(\"venzuela\", \"Venezuela\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "data[\"Class\"] = data[\"Class\"].replace(\"L\", \"Low-Level\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "data[\"Class\"] = data[\"Class\"].replace(\"M\", \"Medium-Level\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "data[\"Class\"] = data[\"Class\"].replace(\"H\", \"High-Level\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "data[\"StageID\"] = data[\"StageID\"].replace(\"lowerlevel\", \"Lower Level\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "data[\"StageID\"] = data[\"StageID\"].replace(\"MiddleSchool\", \"Middle School\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "data[\"StageID\"] = data[\"StageID\"].replace(\"HighSchool\", \"High School\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda root]",
+   "language": "python",
+   "name": "conda-root-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.5.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 1
+}

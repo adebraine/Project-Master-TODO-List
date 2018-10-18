@@ -1,0 +1,20 @@
+- Projects from: **[Supder DataScience Workshop](https://www.superdatascience.com/workshops/)**
+    - Highway Traffic Classification
+    - 2017 Chicago Crime Data Analysis
+    - Car Prices Linear Regression Model
+    - Country Clustering
+    - Crime Prediction
+    - Election Results
+    - Global Temperature Change II
+    - Influenza Spread Analysis
+    - Insurance Claims
+    - Interactive Visualizations
+    - Kaggle - House Prices Advanced Regression Techniques Competition
+    - Monty Hall Probabilities Trial
+    - Proving the Birthday Paradox with 2016 Olympic Athletes
+    - Proving the Secretary Problem
+    - Students' Academic Performance
+    - Top 500 Indian Cities
+    - US Working Visa Analysis
+    - Visualizations with Seaborn
+    - Predict House Prices

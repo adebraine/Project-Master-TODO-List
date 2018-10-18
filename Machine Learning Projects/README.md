@@ -1,0 +1,13 @@
+- Machine Learning Projects
+    - Stock Market Clustering
+    - Breast Cancer Detection
+    - Board Game Review Prediction
+    - Credit Card Fraud Detection
+    - Diabetes Onset Detection
+    - DNA Classification
+    - NLP Project
+    - Object Recognition
+    - Image Super Resolution
+    - Text Classification
+    - KMeans Project
+    - PCA Compression and Visualization

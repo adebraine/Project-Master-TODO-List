@@ -1,0 +1,253 @@
+Country Code,Country Name,Continent,Continent Color
+ARG,Argentina,South America,green
+BOL,Bolivia,South America,green
+BRA,Brazil,South America,green
+CHL,Chile,South America,green
+COL,Colombia,South America,green
+ECU,Ecuador,South America,green
+FLK,Falkland Islands,South America,green
+GUF,French Guiana,South America,green
+GUF,Guiana,South America,green
+GUY,Guyana,South America,green
+PRY,Paraguay,South America,green
+PER,Peru,South America,green
+SUR,Suriname,South America,green
+URY,Uruguay,South America,green
+VEN,Venezuela,South America,green
+DZA,Algeria,Africa,yellow
+AGO,Angola,Africa,yellow
+SHN,Ascension,Africa,yellow
+BEN,Benin,Africa,yellow
+BWA,Botswana,Africa,yellow
+BFA,Burkina Faso,Africa,yellow
+BDI,Burundi,Africa,yellow
+CMR,Cameroon,Africa,yellow
+CPV,Cape Verde Islands,Africa,yellow
+CAF,Central African Republic,Africa,yellow
+TCD,Chad Republic,Africa,yellow
+COM,Comoros,Africa,yellow
+COG,Congo,Africa,yellow
+COD,Dem. Republic of the Congo,Africa,yellow
+DJI,Djibouti,Africa,yellow
+EGY,Egypt,Africa,yellow
+GNQ,Equatorial Guinea,Africa,yellow
+ERI,Eritrea,Africa,yellow
+ETH,Ethiopia,Africa,yellow
+GAB,Gabon Republic,Africa,yellow
+GMB,Gambia,Africa,yellow
+GHA,Ghana,Africa,yellow
+GIN,Guinea,Africa,yellow
+GNB,Guinea-Bissau,Africa,yellow
+CIV,Ivory Coast,Africa,yellow
+KEN,Kenya,Africa,yellow
+LSO,Lesotho,Africa,yellow
+LBR,Liberia,Africa,yellow
+LBY,Libya,Africa,yellow
+MDG,Madagascar,Africa,yellow
+MWI,Malawi,Africa,yellow
+MLI,Mali Republic,Africa,yellow
+MRT,Mauritania,Africa,yellow
+MUS,Mauritius,Africa,yellow
+MYT,Mayotte Island,Africa,yellow
+MAR,Morocco,Africa,yellow
+MOZ,Mozambique,Africa,yellow
+NAM,Namibia,Africa,yellow
+NER,Niger Republic,Africa,yellow
+NGA,Nigeria,Africa,yellow
+STP,Principe,Africa,yellow
+REU,Reunion Island,Africa,yellow
+RWA,Rwanda,Africa,yellow
+STP,Sao Tome,Africa,yellow
+SEN,Senegal Republic,Africa,yellow
+SYC,Seychelles,Africa,yellow
+SLE,Sierra Leone,Africa,yellow
+SOM,Somalia Republic,Africa,yellow
+ZAF,South Africa,Africa,yellow
+SSD,South Sudan,Africa,yellow
+SHN,St. Helena,Africa,yellow
+SDN,Sudan,Africa,yellow
+SWZ,Swaziland,Africa,yellow
+TZA,Tanzania,Africa,yellow
+TGO,Togo,Africa,yellow
+TUN,Tunisia,Africa,yellow
+UGA,Uganda,Africa,yellow
+COD,Zaire,Africa,yellow
+ZMB,Zambia,Africa,yellow
+TZA,Zanzibar,Africa,yellow
+ZWE,Zimbabwe,Africa,yellow
+ATA,Antarctica,Antarctica ,black
+AFG,Afghanistan,Asia,red
+ARM,Armenia,Asia,red
+AZE,Azerbaijan,Asia,red
+BHR,Bahrain,Asia,red
+BGD,Bangladesh,Asia,red
+BTN,Bhutan,Asia,red
+BRN,Brunei,Asia,red
+KHM,Cambodia,Asia,red
+CHN,China,Asia,red
+CXR,Christmas Island,Asia,red
+CCK,Cocos Islands,Asia,red
+IOT,Diego Garcia,Asia,red
+GEO,Georgia,Asia,red
+HKG,Hong Kong,Asia,red
+IND,India,Asia,red
+IDN,Indonesia,Asia,red
+IRN,Iran,Asia,red
+IRQ,Iraq,Asia,red
+ISR,Israel,Asia,red
+JPN,Japan,Asia,red
+JOR,Jordan,Asia,red
+KAZ,Kazakhstan,Asia,red
+KWT,Kuwait,Asia,red
+KGZ,Kyrgyzstan,Asia,red
+LAO,Laos,Asia,red
+LBN,Lebanon,Asia,red
+MAC,Macau,Asia,red
+MYS,Malaysia,Asia,red
+MDV,Maldives,Asia,red
+MNG,Mongolia,Asia,red
+MMR,Myanmar,Asia,red
+NPL,Nepal,Asia,red
+PRK,North Korea,Asia,red
+OMN,Oman,Asia,red
+PAK,Pakistan,Asia,red
+PSE,Palestine,Asia,red
+PHL,Philippines,Asia,red
+QAT,Qatar,Asia,red
+SAU,Saudi Arabia,Asia,red
+SGP,Singapore,Asia,red
+KOR,South Korea,Asia,red
+LKA,Sri Lanka,Asia,red
+SYR,Syria,Asia,red
+TWN,Taiwan,Asia,red
+TJK,Tajikistan,Asia,red
+THA,Thailand,Asia,red
+TUR,Turkey,Asia,red
+TKM,Turkmenistan,Asia,red
+ARE,United Arab Emirates,Asia,red
+UZB,Uzbekistan,Asia,red
+VNM,Vietnam,Asia,red
+YEM,Yemen,Asia,red
+ASM,American Samoa,Oceania,pink
+AUS,Australia,Oceania,pink
+NZL,"Chatham Island, NZ",Oceania,pink
+COK,Cook Islands,Oceania,pink
+TLS,East Timor,Oceania,pink
+FSM,Federated States of Micronesia,Oceania,pink
+FJI,Fiji Islands,Oceania,pink
+PYF,French Polynesia,Oceania,pink
+GUM,Guam,Oceania,pink
+KIR,Kiribati,Oceania,pink
+MNP,Mariana Islands,Oceania,pink
+MHL,Marshall Islands,Oceania,pink
+UMI,Midway Islands,Oceania,pink
+NRU,Nauru,Oceania,pink
+NCL,New Caledonia,Oceania,pink
+NZL,New Zealand,Oceania,pink
+NIU,Niue,Oceania,pink
+NFK,Norfolk Island,Oceania,pink
+PLW,Palau,Oceania,pink
+PNG,Papua New Guinea,Oceania,pink
+MNP,Saipan,Oceania,pink
+WSM,Samoa,Oceania,pink
+SLB,Solomon Islands,Oceania,pink
+TKL,Tokelau,Oceania,pink
+TON,Tonga,Oceania,pink
+TUV,Tuvalu,Oceania,pink
+VUT,Vanuatu,Oceania,pink
+UMI,Wake Island,Oceania,pink
+WLF,Wallis and Futuna Islands,Oceania,pink
+ALB,Albania,Europe,blue
+AND,Andorra,Europe,blue
+AUT,Austria,Europe,blue
+BLR,Belarus,Europe,blue
+BEL,Belgium,Europe,blue
+BIH,Bosnia and Herzegovina,Europe,blue
+BGR,Bulgaria,Europe,blue
+HRV,Croatia,Europe,blue
+CYP,Cyprus,Europe,blue
+CZE,Czech Republic,Europe,blue
+DNK,Denmark,Europe,blue
+EST,Estonia,Europe,blue
+FRO,Faroe Islands,Europe,blue
+FIN,Finland,Europe,blue
+FRA,France,Europe,blue
+DEU,Germany,Europe,blue
+GIB,Gibraltar,Europe,blue
+GRC,Greece,Europe,blue
+HUN,Hungary,Europe,blue
+ISL,Iceland,Europe,blue
+IRL,Ireland,Europe,blue
+IMN,Isle of Man,Europe,blue
+ITA,Italy,Europe,blue
+XKX,Kosovo,Europe,blue
+LVA,Latvia,Europe,blue
+LIE,Liechtenstein,Europe,blue
+LTU,Lithuania,Europe,blue
+LUX,Luxembourg,Europe,blue
+MKD,Macedonia,Europe,blue
+MLT,Malta,Europe,blue
+MDA,Moldova,Europe,blue
+MCO,Monaco,Europe,blue
+MNE,Montenegro,Europe,blue
+NLD,Netherlands,Europe,blue
+NOR,Norway,Europe,blue
+POL,Poland,Europe,blue
+PRT,Portugal,Europe,blue
+ROU,Romania,Europe,blue
+RUS,Russia,Europe,blue
+SMR,San Marino,Europe,blue
+SRB,Serbia,Europe,blue
+SVK,Slovakia,Europe,blue
+SVN,Slovenia,Europe,blue
+ESP,Spain,Europe,blue
+SWE,Sweden,Europe,blue
+CHE,Switzerland,Europe,blue
+UKR,Ukraine,Europe,blue
+GBR,United Kingdom,Europe,blue
+VAT,Vatican city,Europe,blue
+RSB,Yugoslavia,Europe,blue
+AIA,Anguilla,North America,orange
+ATG,Antigua and Barbuda,North America,orange
+ABW,Aruba,North America,orange
+BHS,Bahamas,North America,orange
+BRB,Barbados,North America,orange
+BLZ,Belize,North America,orange
+BMU,Bermuda,North America,orange
+BES,Bonaire,North America,orange
+VGB,British Virgin Islands,North America,orange
+CAN,Canada,North America,orange
+CYM,Cayman Islands,North America,orange
+CRI,Costa Rica,North America,orange
+CUB,Cuba,North America,orange
+CUW,Curacao,North America,orange
+DMA,Dominica,North America,orange
+DOM,Dominican Republic,North America,orange
+SLV,El Salvador,North America,orange
+GRL,Greenland,North America,orange
+GRD,Grenada and Carriacuou,North America,orange
+GLP,Guadeloupe,North America,orange
+GTM,Guatemala,North America,orange
+HTI,Haiti,North America,orange
+HND,Honduras,North America,orange
+JAM,Jamaica,North America,orange
+MTQ,Martinique,North America,orange
+MEX,Mexico,North America,orange
+SPM,Miquelon,North America,orange
+MSR,Montserrat,North America,orange
+ANT,Netherlands Antilles,North America,orange
+KNA,Nevis,North America,orange
+NIC,Nicaragua,North America,orange
+PAN,Panama,North America,orange
+PRI,Puerto Rico,North America,orange
+BES,Saba,North America,orange
+BES,Sint Eustatius,North America,orange
+SXM,Sint Maarten,North America,orange
+KNA,St. Kitts,North America,orange
+LCA,St. Lucia,North America,orange
+SPM,St. Pierre and Miquelon,North America,orange
+VCT,St. Vincent,North America,orange
+TTO,Trinidad and Tobago,North America,orange
+TCA,Turks and Caicos Islands,North America,orange
+USA,United States,North America,orange
+VIR,US Virgin Islands,North America,orange
